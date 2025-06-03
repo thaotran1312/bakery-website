@@ -1,0 +1,19 @@
+.team-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    overflow: hidden;
+}
+  
+.team-img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+  
+.team-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+  
+.team-card:hover .team-img {
+    filter: brightness(1.1);
+    transform: scale(1.05);
+}

@@ -1,0 +1,12 @@
+.active-nav {
+    background-image: url("/src/assets/active_brush.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120% 100%;
+    color: white !important;
+    font-weight: bold;
+    padding: 8px 28px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: all 0.3s ease;
+  }  

@@ -1,0 +1,1344 @@
+[
+  {
+    "id": 1,
+    "name": "Chocolate Cake",
+    "price": 7.34,
+    "short_description": "A delightful chocolate cake treat with a unique twist.",
+    "description": "Our chocolate cake is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product1.jpg",
+    "category": [
+      "chocolate",
+      "fruit"
+    ],
+    "information": {
+      "compositions": "Butter",
+      "style": "Classic",
+      "properties": "Soft & Fresh"
+    },
+    "reviews": [
+      {
+        "name": "Felix",
+        "email": "felix@example.com",
+        "rating": 2,
+        "comment": "Not what I expected. Could be improved.",
+        "date": "2023-10-12"
+      },
+      {
+        "name": "David",
+        "email": "david@example.com",
+        "rating": 5,
+        "comment": "Perfect texture and flavor!",
+        "date": "2023-08-10"
+      },
+      {
+        "name": "Bob",
+        "email": "bob@example.com",
+        "rating": 4,
+        "comment": "Tasted good, but a bit too sweet for me.",
+        "date": "2023-06-15"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Vanilla Cupcake",
+    "price": 5.69,
+    "short_description": "A delightful vanilla cupcake treat with a unique twist.",
+    "description": "Our vanilla cupcake is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product2.jpg",
+    "category": [
+      "banana",
+      "bread",
+      "cakes"
+    ],
+    "information": {
+      "compositions": "Fruit",
+      "style": "Fluffy",
+      "properties": "Moist Inside"
+    },
+    "reviews": []
+  },
+  {
+    "id": 3,
+    "name": "Strawberry Tart",
+    "price": 7.72,
+    "short_description": "A delightful strawberry tart treat with a unique twist.",
+    "description": "Our strawberry tart is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product3.jpg",
+    "category": [
+      "cakes",
+      "tarts"
+    ],
+    "information": {
+      "compositions": "Fruit",
+      "style": "Classic",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "Felix",
+        "email": "felix@example.com",
+        "rating": 2,
+        "comment": "Not what I expected. Could be improved.",
+        "date": "2023-10-12"
+      },
+      {
+        "name": "David",
+        "email": "david@example.com",
+        "rating": 5,
+        "comment": "Perfect texture and flavor!",
+        "date": "2023-08-10"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Blueberry Muffin",
+    "price": 7.65,
+    "short_description": "A delightful blueberry muffin treat with a unique twist.",
+    "description": "Our blueberry muffin is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product4.jpg",
+    "category": [
+      "danish",
+      "raspberry"
+    ],
+    "information": {
+      "compositions": "Fruit",
+      "style": "Classic",
+      "properties": "Soft & Fresh"
+    },
+    "reviews": [
+      {
+        "name": "Ella",
+        "email": "ella@example.com",
+        "rating": 4,
+        "comment": "Nice and fresh. My kids loved it.",
+        "date": "2023-09-05"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Croissant",
+    "price": 3.79,
+    "short_description": "A delightful croissant treat with a unique twist.",
+    "description": "Our croissant is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product5.jpg",
+    "category": [
+      "blueberry",
+      "muffins"
+    ],
+    "information": {
+      "compositions": "Chocolate",
+      "style": "Soft",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "Chloe",
+        "email": "chloe@example.com",
+        "rating": 3,
+        "comment": "It was okay, not too memorable.",
+        "date": "2023-05-30"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Macaron",
+    "price": 3.92,
+    "short_description": "A delightful macaron treat with a unique twist.",
+    "description": "Our macaron is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product6.jpg",
+    "category": [
+      "danish",
+      "raspberry"
+    ],
+    "information": {
+      "compositions": "Fruit",
+      "style": "Crunchy",
+      "properties": "Soft & Fresh"
+    },
+    "reviews": [
+      {
+        "name": "Ella",
+        "email": "ella@example.com",
+        "rating": 4,
+        "comment": "Nice and fresh. My kids loved it.",
+        "date": "2023-09-05"
+      },
+      {
+        "name": "David",
+        "email": "david@example.com",
+        "rating": 5,
+        "comment": "Perfect texture and flavor!",
+        "date": "2023-08-10"
+      },
+      {
+        "name": "Bob",
+        "email": "bob@example.com",
+        "rating": 4,
+        "comment": "Tasted good, but a bit too sweet for me.",
+        "date": "2023-06-15"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Banana Bread",
+    "price": 4.12,
+    "short_description": "A delightful banana bread treat with a unique twist.",
+    "description": "Our banana bread is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product7.jpg",
+    "category": [
+      "banana",
+      "bread"
+    ],
+    "information": {
+      "compositions": "Chocolate",
+      "style": "Soft",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "Chloe",
+        "email": "chloe@example.com",
+        "rating": 3,
+        "comment": "It was okay, not too memorable.",
+        "date": "2023-05-30"
+      },
+      {
+        "name": "Ella",
+        "email": "ella@example.com",
+        "rating": 4,
+        "comment": "Nice and fresh. My kids loved it.",
+        "date": "2023-09-05"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Cheesecake",
+    "price": 6.44,
+    "short_description": "A delightful cheesecake treat with a unique twist.",
+    "description": "Our cheesecake is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product8.jpg",
+    "category": [
+      "fruit",
+      "cakes",
+      "special"
+    ],
+    "information": {
+      "compositions": "Butter",
+      "style": "Sweet",
+      "properties": "Soft & Fresh"
+    },
+    "reviews": [
+      {
+        "name": "David",
+        "email": "david@example.com",
+        "rating": 5,
+        "comment": "Perfect texture and flavor!",
+        "date": "2023-08-10"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Carrot Cake",
+    "price": 7.91,
+    "short_description": "A delightful carrot cake treat with a unique twist.",
+    "description": "Our carrot cake is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product9.jpg",
+    "category": [
+      "cakes",
+      "fruit"
+    ],
+    "information": {
+      "compositions": "Flour",
+      "style": "Sweet",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "Ella",
+        "email": "ella@example.com",
+        "rating": 4,
+        "comment": "Nice and fresh. My kids loved it.",
+        "date": "2023-09-05"
+      },
+      {
+        "name": "Bob",
+        "email": "bob@example.com",
+        "rating": 4,
+        "comment": "Tasted good, but a bit too sweet for me.",
+        "date": "2023-06-15"
+      },
+      {
+        "name": "Chloe",
+        "email": "chloe@example.com",
+        "rating": 3,
+        "comment": "It was okay, not too memorable.",
+        "date": "2023-05-30"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Tiramisu",
+    "price": 6.28,
+    "short_description": "A delightful tiramisu treat with a unique twist.",
+    "description": "Our tiramisu is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product10.jpg",
+    "category": [
+      "chocolate",
+      "cakes",
+      "cookies",
+      "pies",
+      "brownies"
+    ],
+    "information": {
+      "compositions": "Chocolate",
+      "style": "Classic",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "David",
+        "email": "david@example.com",
+        "rating": 5,
+        "comment": "Perfect texture and flavor!",
+        "date": "2023-08-10"
+      },
+      {
+        "name": "Grace",
+        "email": "grace@example.com",
+        "rating": 5,
+        "comment": "Highly recommended for all dessert lovers!",
+        "date": "2023-11-02"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Lemon Pie",
+    "price": 6.18,
+    "short_description": "A delightful lemon pie treat with a unique twist.",
+    "description": "Our lemon pie is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product11.jpg",
+    "category": [
+      "fruit",
+      "muffins",
+      "cakes",
+      "pies"
+    ],
+    "information": {
+      "compositions": "Almond",
+      "style": "Crunchy",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "David",
+        "email": "david@example.com",
+        "rating": 5,
+        "comment": "Perfect texture and flavor!",
+        "date": "2023-08-10"
+      },
+      {
+        "name": "Chloe",
+        "email": "chloe@example.com",
+        "rating": 3,
+        "comment": "It was okay, not too memorable.",
+        "date": "2023-05-30"
+      },
+      {
+        "name": "Felix",
+        "email": "felix@example.com",
+        "rating": 2,
+        "comment": "Not what I expected. Could be improved.",
+        "date": "2023-10-12"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Almond Croissant",
+    "price": 3.62,
+    "short_description": "A delightful almond croissant treat with a unique twist.",
+    "description": "Our almond croissant is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product12.jpg",
+    "category": [
+      "pastries",
+      "rolls"
+    ],
+    "information": {
+      "compositions": "Almond",
+      "style": "Sweet",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "Bob",
+        "email": "bob@example.com",
+        "rating": 4,
+        "comment": "Tasted good, but a bit too sweet for me.",
+        "date": "2023-06-15"
+      },
+      {
+        "name": "Felix",
+        "email": "felix@example.com",
+        "rating": 2,
+        "comment": "Not what I expected. Could be improved.",
+        "date": "2023-10-12"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Pretzel",
+    "price": 2.92,
+    "short_description": "A delightful pretzel treat with a unique twist.",
+    "description": "Our pretzel is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product13.jpg",
+    "category": [
+      "cookies",
+      "rolls"
+    ],
+    "information": {
+      "compositions": "Fruit",
+      "style": "Fluffy",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "Felix",
+        "email": "felix@example.com",
+        "rating": 2,
+        "comment": "Not what I expected. Could be improved.",
+        "date": "2023-10-12"
+      },
+      {
+        "name": "Chloe",
+        "email": "chloe@example.com",
+        "rating": 3,
+        "comment": "It was okay, not too memorable.",
+        "date": "2023-05-30"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Gingerbread Cookie",
+    "price": 2.53,
+    "short_description": "A delightful gingerbread cookie treat with a unique twist.",
+    "description": "Our gingerbread cookie is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product14.jpg",
+    "category": [
+      "cakes",
+      "chocolate"
+    ],
+    "information": {
+      "compositions": "Butter",
+      "style": "Crunchy",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "David",
+        "email": "david@example.com",
+        "rating": 5,
+        "comment": "Perfect texture and flavor!",
+        "date": "2023-08-10"
+      },
+      {
+        "name": "Grace",
+        "email": "grace@example.com",
+        "rating": 5,
+        "comment": "Highly recommended for all dessert lovers!",
+        "date": "2023-11-02"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Oatmeal Raisin Cookie",
+    "price": 7.0,
+    "short_description": "A delightful oatmeal raisin cookie treat with a unique twist.",
+    "description": "Our oatmeal raisin cookie is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product15.jpg",
+    "category": [
+      "blueberry",
+      "muffins"
+    ],
+    "information": {
+      "compositions": "Butter",
+      "style": "Classic",
+      "properties": "Moist Inside"
+    },
+    "reviews": [
+      {
+        "name": "Ella",
+        "email": "ella@example.com",
+        "rating": 4,
+        "comment": "Nice and fresh. My kids loved it.",
+        "date": "2023-09-05"
+      },
+      {
+        "name": "Felix",
+        "email": "felix@example.com",
+        "rating": 2,
+        "comment": "Not what I expected. Could be improved.",
+        "date": "2023-10-12"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Peanut Butter Cookie",
+    "price": 4.55,
+    "short_description": "A delightful peanut butter cookie treat with a unique twist.",
+    "description": "Our peanut butter cookie is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product16.jpg",
+    "category": [
+      "brownies",
+      "walnut"
+    ],
+    "information": {
+      "compositions": "Butter",
+      "style": "Classic",
+      "properties": "Soft & Fresh"
+    },
+    "reviews": [
+      {
+        "name": "Chloe",
+        "email": "chloe@example.com",
+        "rating": 3,
+        "comment": "It was okay, not too memorable.",
+        "date": "2023-05-30"
+      },
+      {
+        "name": "Ella",
+        "email": "ella@example.com",
+        "rating": 4,
+        "comment": "Nice and fresh. My kids loved it.",
+        "date": "2023-09-05"
+      },
+      {
+        "name": "Grace",
+        "email": "grace@example.com",
+        "rating": 5,
+        "comment": "Highly recommended for all dessert lovers!",
+        "date": "2023-11-02"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Red Velvet Cake",
+    "price": 4.95,
+    "short_description": "A delightful red velvet cake treat with a unique twist.",
+    "description": "Our red velvet cake is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product17.jpg",
+    "category": [
+      "brownies",
+      "walnut",
+      "fruit"
+    ],
+    "information": {
+      "compositions": "Butter",
+      "style": "Classic",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "Bob",
+        "email": "bob@example.com",
+        "rating": 4,
+        "comment": "Tasted good, but a bit too sweet for me.",
+        "date": "2023-06-15"
+      },
+      {
+        "name": "Chloe",
+        "email": "chloe@example.com",
+        "rating": 3,
+        "comment": "It was okay, not too memorable.",
+        "date": "2023-05-30"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Raspberry Danish",
+    "price": 3.25,
+    "short_description": "A delightful raspberry danish treat with a unique twist.",
+    "description": "Our raspberry danish is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product18.jpg",
+    "category": [
+      "cakes",
+      "raspberry"
+    ],
+    "information": {
+      "compositions": "Fruit",
+      "style": "Soft",
+      "properties": "Rich & Creamy"
+    },
+    "reviews": [
+      {
+        "name": "Chloe",
+        "email": "chloe@example.com",
+        "rating": 3,
+        "comment": "It was okay, not too memorable.",
+        "date": "2023-05-30"
+      },
+      {
+        "name": "Bob",
+        "email": "bob@example.com",
+        "rating": 4,
+        "comment": "Tasted good, but a bit too sweet for me.",
+        "date": "2023-06-15"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Matcha Roll",
+    "price": 6.88,
+    "short_description": "A delightful matcha roll treat with a unique twist.",
+    "description": "Our matcha roll is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product19.jpg",
+    "category": [
+      "danish",
+      "matcha",
+      "chocolate",
+      "rolls"
+    ],
+    "information": {
+      "compositions": "Butter",
+      "style": "Classic",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "Grace",
+        "email": "grace@example.com",
+        "rating": 5,
+        "comment": "Highly recommended for all dessert lovers!",
+        "date": "2023-11-02"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Pumpkin Pie",
+    "price": 4.41,
+    "short_description": "A delightful pumpkin pie treat with a unique twist.",
+    "description": "Our pumpkin pie is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product20.jpg",
+    "category": [
+      "brownies",
+      "walnut",
+      "pies"
+    ],
+    "information": {
+      "compositions": "Almond",
+      "style": "Sweet",
+      "properties": "Moist Inside"
+    },
+    "reviews": [
+      {
+        "name": "Ella",
+        "email": "ella@example.com",
+        "rating": 4,
+        "comment": "Nice and fresh. My kids loved it.",
+        "date": "2023-09-05"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Eclair",
+    "price": 4.29,
+    "short_description": "A delightful eclair treat with a unique twist.",
+    "description": "Our eclair is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product21.jpg",
+    "category": [
+      "french",
+      "pastries"
+    ],
+    "information": {
+      "compositions": "Almond",
+      "style": "Classic",
+      "properties": "Rich & Creamy"
+    },
+    "reviews": [
+      {
+        "name": "David",
+        "email": "david@example.com",
+        "rating": 5,
+        "comment": "Perfect texture and flavor!",
+        "date": "2023-08-10"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Fruit Tart",
+    "price": 7.17,
+    "short_description": "A delightful fruit tart treat with a unique twist.",
+    "description": "Our fruit tart is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product22.jpg",
+    "category": [
+      "banana",
+      "blueberry",
+      "raspberry",
+      "tarts"
+    ],
+    "information": {
+      "compositions": "Almond",
+      "style": "Crunchy",
+      "properties": "Moist Inside"
+    },
+    "reviews": [
+      {
+        "name": "Chloe",
+        "email": "chloe@example.com",
+        "rating": 3,
+        "comment": "It was okay, not too memorable.",
+        "date": "2023-05-30"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Coconut Macaroon",
+    "price": 3.95,
+    "short_description": "A delightful coconut macaroon treat with a unique twist.",
+    "description": "Our coconut macaroon is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product23.jpg",
+    "category": [
+      "blueberry",
+      "muffins",
+      "french",
+      "special"
+    ],
+    "information": {
+      "compositions": "Fruit",
+      "style": "Crunchy",
+      "properties": "Moist Inside"
+    },
+    "reviews": []
+  },
+  {
+    "id": 24,
+    "name": "Marble Cake",
+    "price": 5.82,
+    "short_description": "A delightful marble cake treat with a unique twist.",
+    "description": "Our marble cake is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product24.jpg",
+    "category": [
+      "chocolate",
+      "rolls"
+    ],
+    "information": {
+      "compositions": "Flour",
+      "style": "Soft",
+      "properties": "Soft & Fresh"
+    },
+    "reviews": [
+      {
+        "name": "Felix",
+        "email": "felix@example.com",
+        "rating": 2,
+        "comment": "Not what I expected. Could be improved.",
+        "date": "2023-10-12"
+      },
+      {
+        "name": "Alice",
+        "email": "alice@example.com",
+        "rating": 5,
+        "comment": "Absolutely loved it! Will buy again.",
+        "date": "2023-07-22"
+      },
+      {
+        "name": "Chloe",
+        "email": "chloe@example.com",
+        "rating": 3,
+        "comment": "It was okay, not too memorable.",
+        "date": "2023-05-30"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Walnut Brownie",
+    "price": 7.12,
+    "short_description": "A delightful walnut brownie treat with a unique twist.",
+    "description": "Our walnut brownie is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product25.jpg",
+    "category": [
+      "brownies",
+      "walnut"
+    ],
+    "information": {
+      "compositions": "Flour",
+      "style": "Sweet",
+      "properties": "Rich & Creamy"
+    },
+    "reviews": [
+      {
+        "name": "Bob",
+        "email": "bob@example.com",
+        "rating": 4,
+        "comment": "Tasted good, but a bit too sweet for me.",
+        "date": "2023-06-15"
+      },
+      {
+        "name": "Chloe",
+        "email": "chloe@example.com",
+        "rating": 3,
+        "comment": "It was okay, not too memorable.",
+        "date": "2023-05-30"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Hazelnut Tart",
+    "price": 7.31,
+    "short_description": "A delightful hazelnut tart treat with a unique twist.",
+    "description": "Our hazelnut tart is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product26.jpg",
+    "category": [
+      "cakes",
+      "chocolate"
+    ],
+    "information": {
+      "compositions": "Almond",
+      "style": "Crunchy",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "Bob",
+        "email": "bob@example.com",
+        "rating": 4,
+        "comment": "Tasted good, but a bit too sweet for me.",
+        "date": "2023-06-15"
+      },
+      {
+        "name": "David",
+        "email": "david@example.com",
+        "rating": 5,
+        "comment": "Perfect texture and flavor!",
+        "date": "2023-08-10"
+      },
+      {
+        "name": "Alice",
+        "email": "alice@example.com",
+        "rating": 5,
+        "comment": "Absolutely loved it! Will buy again.",
+        "date": "2023-07-22"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Cinnamon Roll",
+    "price": 3.15,
+    "short_description": "A delightful cinnamon roll treat with a unique twist.",
+    "description": "Our cinnamon roll is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product27.jpg",
+    "category": [
+      "apple",
+      "pies",
+      "rolls"
+    ],
+    "information": {
+      "compositions": "Chocolate",
+      "style": "Crunchy",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "David",
+        "email": "david@example.com",
+        "rating": 5,
+        "comment": "Perfect texture and flavor!",
+        "date": "2023-08-10"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Apple Pie",
+    "price": 4.59,
+    "short_description": "A delightful apple pie treat with a unique twist.",
+    "description": "Our apple pie is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product28.jpg",
+    "category": [
+      "danish",
+      "raspberry",
+      "fruit"
+    ],
+    "information": {
+      "compositions": "Butter",
+      "style": "Fluffy",
+      "properties": "Soft & Fresh"
+    },
+    "reviews": [
+      {
+        "name": "Chloe",
+        "email": "chloe@example.com",
+        "rating": 3,
+        "comment": "It was okay, not too memorable.",
+        "date": "2023-05-30"
+      },
+      {
+        "name": "Bob",
+        "email": "bob@example.com",
+        "rating": 4,
+        "comment": "Tasted good, but a bit too sweet for me.",
+        "date": "2023-06-15"
+      },
+      {
+        "name": "Alice",
+        "email": "alice@example.com",
+        "rating": 5,
+        "comment": "Absolutely loved it! Will buy again.",
+        "date": "2023-07-22"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Baguette",
+    "price": 6.49,
+    "short_description": "A delightful baguette treat with a unique twist.",
+    "description": "Our baguette is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product29.jpg",
+    "category": [
+      "pastries",
+      "cookies"
+    ],
+    "information": {
+      "compositions": "Almond",
+      "style": "Crunchy",
+      "properties": "Soft & Fresh"
+    },
+    "reviews": [
+      {
+        "name": "Felix",
+        "email": "felix@example.com",
+        "rating": 2,
+        "comment": "Not what I expected. Could be improved.",
+        "date": "2023-10-12"
+      },
+      {
+        "name": "Chloe",
+        "email": "chloe@example.com",
+        "rating": 3,
+        "comment": "It was okay, not too memorable.",
+        "date": "2023-05-30"
+      },
+      {
+        "name": "Alice",
+        "email": "alice@example.com",
+        "rating": 5,
+        "comment": "Absolutely loved it! Will buy again.",
+        "date": "2023-07-22"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Churro",
+    "price": 6.3,
+    "short_description": "A delightful churro treat with a unique twist.",
+    "description": "Our churro is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product30.jpg",
+    "category": [
+      "danish",
+      "chocolate"
+    ],
+    "information": {
+      "compositions": "Butter",
+      "style": "Fluffy",
+      "properties": "Moist Inside"
+    },
+    "reviews": [
+      {
+        "name": "Ella",
+        "email": "ella@example.com",
+        "rating": 4,
+        "comment": "Nice and fresh. My kids loved it.",
+        "date": "2023-09-05"
+      },
+      {
+        "name": "Bob",
+        "email": "bob@example.com",
+        "rating": 4,
+        "comment": "Tasted good, but a bit too sweet for me.",
+        "date": "2023-06-15"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Butter Cookie",
+    "price": 5.53,
+    "short_description": "A delightful butter cookie treat with a unique twist.",
+    "description": "Our butter cookie is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product31.jpg",
+    "category": [
+      "danish"
+    ],
+    "information": {
+      "compositions": "Fruit",
+      "style": "Classic",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "Ella",
+        "email": "ella@example.com",
+        "rating": 4,
+        "comment": "Nice and fresh. My kids loved it.",
+        "date": "2023-09-05"
+      },
+      {
+        "name": "David",
+        "email": "david@example.com",
+        "rating": 5,
+        "comment": "Perfect texture and flavor!",
+        "date": "2023-08-10"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Sponge Cake",
+    "price": 7.07,
+    "short_description": "A delightful sponge cake treat with a unique twist.",
+    "description": "Our sponge cake is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product32.jpg",
+    "category": [
+      "cakes",
+      "pies"
+    ],
+    "information": {
+      "compositions": "Fruit",
+      "style": "Fluffy",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "David",
+        "email": "david@example.com",
+        "rating": 5,
+        "comment": "Perfect texture and flavor!",
+        "date": "2023-08-10"
+      },
+      {
+        "name": "Bob",
+        "email": "bob@example.com",
+        "rating": 4,
+        "comment": "Tasted good, but a bit too sweet for me.",
+        "date": "2023-06-15"
+      },
+      {
+        "name": "Chloe",
+        "email": "chloe@example.com",
+        "rating": 3,
+        "comment": "It was okay, not too memorable.",
+        "date": "2023-05-30"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Donut",
+    "price": 7.4,
+    "short_description": "A delightful donut treat with a unique twist.",
+    "description": "Our donut is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product33.jpg",
+    "category": [
+      "fruit",
+      "muffins"
+    ],
+    "information": {
+      "compositions": "Almond",
+      "style": "Fluffy",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "Felix",
+        "email": "felix@example.com",
+        "rating": 2,
+        "comment": "Not what I expected. Could be improved.",
+        "date": "2023-10-12"
+      },
+      {
+        "name": "Alice",
+        "email": "alice@example.com",
+        "rating": 5,
+        "comment": "Absolutely loved it! Will buy again.",
+        "date": "2023-07-22"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Molten Lava Cake",
+    "price": 3.3,
+    "short_description": "A delightful molten lava cake treat with a unique twist.",
+    "description": "Our molten lava cake is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product34.jpg",
+    "category": [
+      "chocolate",
+      "danish",
+      "french"
+    ],
+    "information": {
+      "compositions": "Butter",
+      "style": "Crunchy",
+      "properties": "Soft & Fresh"
+    },
+    "reviews": []
+  },
+  {
+    "id": 35,
+    "name": "Opera Cake",
+    "price": 2.51,
+    "short_description": "A delightful opera cake treat with a unique twist.",
+    "description": "Our opera cake is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product35.jpg",
+    "category": [
+      "chocolate",
+      "oatmeal",
+      "cookies"
+    ],
+    "information": {
+      "compositions": "Fruit",
+      "style": "Fluffy",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "David",
+        "email": "david@example.com",
+        "rating": 5,
+        "comment": "Perfect texture and flavor!",
+        "date": "2023-08-10"
+      },
+      {
+        "name": "Chloe",
+        "email": "chloe@example.com",
+        "rating": 3,
+        "comment": "It was okay, not too memorable.",
+        "date": "2023-05-30"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Scone",
+    "price": 6.87,
+    "short_description": "A delightful scone treat with a unique twist.",
+    "description": "Our scone is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product36.jpg",
+    "category": [
+      "pies",
+      "fruit"
+    ],
+    "information": {
+      "compositions": "Fruit",
+      "style": "Fluffy",
+      "properties": "Moist Inside"
+    },
+    "reviews": [
+      {
+        "name": "Felix",
+        "email": "felix@example.com",
+        "rating": 2,
+        "comment": "Not what I expected. Could be improved.",
+        "date": "2023-10-12"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Pecan Pie",
+    "price": 6.96,
+    "short_description": "A delightful pecan pie treat with a unique twist.",
+    "description": "Our pecan pie is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product37.jpg",
+    "category": [
+      "cakes",
+      "chocolate",
+      "fruit"
+    ],
+    "information": {
+      "compositions": "Fruit",
+      "style": "Fluffy",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "Chloe",
+        "email": "chloe@example.com",
+        "rating": 3,
+        "comment": "It was okay, not too memorable.",
+        "date": "2023-05-30"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Shortbread",
+    "price": 7.91,
+    "short_description": "A delightful shortbread treat with a unique twist.",
+    "description": "Our shortbread is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product38.jpg",
+    "category": [
+      "cakes",
+      "oatmeal"
+    ],
+    "information": {
+      "compositions": "Butter",
+      "style": "Soft",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "Ella",
+        "email": "ella@example.com",
+        "rating": 4,
+        "comment": "Nice and fresh. My kids loved it.",
+        "date": "2023-09-05"
+      },
+      {
+        "name": "Grace",
+        "email": "grace@example.com",
+        "rating": 5,
+        "comment": "Highly recommended for all dessert lovers!",
+        "date": "2023-11-02"
+      },
+      {
+        "name": "David",
+        "email": "david@example.com",
+        "rating": 5,
+        "comment": "Perfect texture and flavor!",
+        "date": "2023-08-10"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Coffee Cake",
+    "price": 5.34,
+    "short_description": "A delightful coffee cake treat with a unique twist.",
+    "description": "Our coffee cake is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product39.jpg",
+    "category": [
+      "cakes",
+      "rolls",
+      "french",
+      "brownies"
+    ],
+    "information": {
+      "compositions": "Butter",
+      "style": "Crunchy",
+      "properties": "Moist Inside"
+    },
+    "reviews": [
+      {
+        "name": "Chloe",
+        "email": "chloe@example.com",
+        "rating": 3,
+        "comment": "It was okay, not too memorable.",
+        "date": "2023-05-30"
+      },
+      {
+        "name": "Grace",
+        "email": "grace@example.com",
+        "rating": 5,
+        "comment": "Highly recommended for all dessert lovers!",
+        "date": "2023-11-02"
+      },
+      {
+        "name": "David",
+        "email": "david@example.com",
+        "rating": 5,
+        "comment": "Perfect texture and flavor!",
+        "date": "2023-08-10"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Black Forest Cake",
+    "price": 7.88,
+    "short_description": "A delightful black forest cake treat with a unique twist.",
+    "description": "Our black forest cake is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product40.jpg",
+    "category": [
+      "cookies",
+      "oatmeal",
+      "pies",
+      "chocolate"
+    ],
+    "information": {
+      "compositions": "Chocolate",
+      "style": "Sweet",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": [
+      {
+        "name": "Bob",
+        "email": "bob@example.com",
+        "rating": 4,
+        "comment": "Tasted good, but a bit too sweet for me.",
+        "date": "2023-06-15"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Caneles",
+    "price": 34.11,
+    "short_description": "A delightful caneles treat with a unique twist.",
+    "description": "Our caneles is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product41.jpg",
+    "category": [
+      "limited",
+      "special"
+    ],
+    "information": {
+      "compositions": "Butter",
+      "style": "Classic",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": []
+  },
+  {
+    "id": 42,
+    "name": "Creme Brulee",
+    "price": 37.33,
+    "short_description": "A delightful creme brulee treat with a unique twist.",
+    "description": "Our creme brulee is crafted with care using only the finest ingredients. Its rich flavor profile and delicate texture make it perfect for any occasion. Whether you're celebrating a milestone or indulging in a personal treat, this dessert offers a taste experience that lingers pleasantly on the palate.",
+    "image": "../assets/products/product42.jpg",
+    "category": [
+      "cookies",
+      "limited",
+      "special"
+    ],
+    "information": {
+      "compositions": "Almond",
+      "style": "Soft",
+      "properties": "Crunchy Outside"
+    },
+    "reviews": []
+  }
+]

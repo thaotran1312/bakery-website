@@ -1,0 +1,5 @@
+input.form-control,
+select.form-select {
+  border-radius: 25px;
+  padding: 8px 16px;
+}

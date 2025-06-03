@@ -1,0 +1,14 @@
+.footer-newsletter .form-control {
+  min-width: 180px;
+  padding: 0.6rem 1rem;
+  font-size: 14px;
+}
+
+.footer-newsletter .btn {
+  padding: 0.6rem 1rem;
+  font-size: 18px;
+  border-radius: 0 0.375rem 0.375rem 0;
+}
+footer ul li {
+  white-space: nowrap;
+}
