@@ -4,11 +4,13 @@ import cakesData from "../data/cakes.json";
 import ProductCard from "../components/ProductCard";
 import blogData from "../data/blogs.json";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function HomeBanner() {
   const [storyVisible, setStoryVisible] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState("cakes");
   const storyRef = useRef(null);
+  const navigate = useNavigate();
 
   // const categories = [
   //   { img: "/src/assets/category1.png", label: "PASTRY", keyword: "pastries" },
@@ -73,6 +75,7 @@ export default function HomeBanner() {
             <button
               className="btn text-white px-4 py-2 fw-bold"
               style={{ backgroundColor: "#fc7c7c", borderRadius: "12px" }}
+              onClick={() => navigate("/shop")}
             >
               SHOP NOW
             </button>
