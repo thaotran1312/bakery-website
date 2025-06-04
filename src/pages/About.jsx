@@ -6,19 +6,19 @@ const teamData = [
     id: 1,
     name: "Sarah Connor",
     position: "Cake Designer",
-    image: "/src/assets/team1.jpg",
+    image: "/assets/team1.jpg",
   },
   {
     id: 2,
     name: "John Doe",
     position: "Pastry Chef",
-    image: "/src/assets/team2.jpg",
+    image: "/assets/team2.jpg",
   },
   {
     id: 3,
     name: "Emma Watson",
     position: "Bakery Manager",
-    image: "/src/assets/team3.jpg",
+    image: "/assets/team3.jpg",
   },
 ];
 
@@ -30,7 +30,7 @@ export default function About() {
         style={{
           backgroundColor: "#fdf6e9",
           padding: "60px 0",
-          backgroundImage: "url('/src/assets/breadcrumbs-bg.png')",
+          backgroundImage: "url('/assets/breadcrumbs-bg.png')",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "right center",
           height: "370px",
@@ -62,7 +62,7 @@ export default function About() {
       >
         <div className="my-5 position-relative text-center">
           <img
-            src="/src/assets/video_banner.jpg"
+            src="/assets/video_banner.jpg"
             alt="Video Banner"
             className="img-fluid w-100 rounded"
           />
@@ -82,7 +82,7 @@ export default function About() {
               boxShadow: "0 4px 20px rgba(0,0,0,0.2)",
             }}
           >
-            <img src="/src/assets/icon_youtube.png" alt="Play" width="40" />
+            <img src="/assets/icon_youtube.png" alt="Play" width="40" />
           </a>
         </div>
 

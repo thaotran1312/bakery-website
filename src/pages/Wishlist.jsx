@@ -13,7 +13,7 @@ export default function WishlistPage() {
         style={{
           backgroundColor: "#fdf6e9",
           padding: "60px 0",
-          backgroundImage: "url('/src/assets/breadcrumbs-bg.png')",
+          backgroundImage: "url('/assets/breadcrumbs-bg.png')",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "right center",
           height: "370px",

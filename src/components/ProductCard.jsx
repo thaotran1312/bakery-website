@@ -46,8 +46,8 @@ export default function ProductCard({
           <img
             src={
               isWished
-                ? "/src/assets/heart-filled.png"
-                : "/src/assets/heart.png"
+                ? "/assets/heart-filled.png"
+                : "/assets/heart.png"
             }
             alt="fav"
             style={{ width: "18px", height: "18px" }}

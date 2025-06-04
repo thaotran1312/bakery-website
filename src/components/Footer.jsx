@@ -22,7 +22,7 @@ function Footer() {
         >
           <div className="d-flex align-items-center" style={{ gap: "28px" }}>
             <img
-              src="/src/assets/free_shipping.png"
+              src="/assets/free_shipping.png"
               alt="Free Shipping"
               width="70"
             />
@@ -35,7 +35,7 @@ function Footer() {
           </div>
           <div className="d-flex align-items-center" style={{ gap: "28px" }}>
             <img
-              src="/src/assets/card_payment.png"
+              src="/assets/card_payment.png"
               alt="Card Payments"
               width="70"
             />
@@ -48,7 +48,7 @@ function Footer() {
           </div>
           <div className="d-flex align-items-center" style={{ gap: "28px" }}>
             <img
-              src="/src/assets/easy_returns.png"
+              src="/assets/easy_returns.png"
               alt="Easy Returns"
               width="70"
             />
@@ -76,7 +76,7 @@ function Footer() {
             </p>
             <div className="d-flex align-items-start gap-2 mt-2">
               <img
-                src="/src/assets/icon_location.png"
+                src="/assets/icon_location.png"
                 alt="Location"
                 width="26"
                 height="26"
@@ -85,7 +85,7 @@ function Footer() {
             </div>
             <div className="d-flex align-items-start gap-2 mt-2">
               <img
-                src="/src/assets/icon_phone.png"
+                src="/assets/icon_phone.png"
                 alt="Phone"
                 width="26"
                 height="26"
@@ -123,7 +123,7 @@ function Footer() {
               <h5 className="fw-bold">ACCOUNT</h5>
               <ul className="list-unstyled" style={{ fontSize: "14px" }}>
                 <li>My account</li>
-                <li>My orders</li>
+                <li>My cart</li>
                 <li>Returns</li>
                 <li>Shipping</li>
                 <li>Wishlist</li>
@@ -166,7 +166,7 @@ function Footer() {
             </div>
             <div className="mt-3">
               <img
-                src="/src/assets/payment_cards.png"
+                src="/assets/payment_cards.png"
                 alt="Payment Options"
                 style={{ width: "100%" }}
               />

@@ -39,7 +39,7 @@ function Header() {
         }}
       >
         <div
-          className="d-flex justify-content-between align-items-center px-3 w-100"
+          className="d-flex justify-content-between align-items-center w-100"
           style={{ maxWidth: "990px", margin: "0 auto" }}
         >
           <div>World Wide Completely Free Returns and Free Shipping</div>
@@ -72,7 +72,7 @@ function Header() {
           }}
         >
           <NavLink to="/" className="d-block">
-            <img src="/src/assets/logo.png" alt="Bucker Logo" width="132" height="80" className="d-block" />
+            <img src="/assets/logo.png" alt="Bucker Logo" width="132" height="80" className="d-block" />
           </NavLink>
         </div>
 
@@ -151,7 +151,7 @@ function Header() {
             style={{ width: "25px", height: "25px" }}
             onClick={() => setShowSearch(true)}
           >
-            <img src="/src/assets/search.png" alt="search" style={{ width: "100%", height: "100%" }} />
+            <img src="/assets/search.png" alt="search" style={{ width: "100%", height: "100%" }} />
           </button>
 
           <button
@@ -159,7 +159,7 @@ function Header() {
             style={{ width: "25px", height: "25px" }}
             onClick={() => navigate("/wishlist")}
           >
-            <img src="/src/assets/heart.png" alt="wishlist" style={{ width: "100%", height: "100%" }} />
+            <img src="/assets/heart.png" alt="wishlist" style={{ width: "100%", height: "100%" }} />
           </button>
 
           <button
@@ -167,7 +167,7 @@ function Header() {
             style={{ width: "25px", height: "25px" }}
             onClick={() => setShowCart(true)}
           >
-            <img src="/src/assets/cart.png" alt="cart" style={{ width: "100%", height: "100%" }} />
+            <img src="/assets/cart.png" alt="cart" style={{ width: "100%", height: "100%" }} />
             {cart.length > 0 && (
               <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                 {cart.length}

@@ -80,7 +80,7 @@ export default function HomeBanner() {
 
           <div className="floating">
             <img
-              src="/src/assets/floating_bread.png"
+              src="/assets/floating_bread.png"
               alt="Floating Bread"
               style={{ width: "500px", maxWidth: "100%" }}
             />
@@ -88,31 +88,31 @@ export default function HomeBanner() {
         </div>
 
         <img
-          src="/src/assets/donut_left_1.png"
+          src="/assets/donut_left_1.png"
           alt="Donut Left"
           className="position-absolute"
           style={{ left: "30px", top: "40px" }}
         />
         <img
-          src="/src/assets/pretzel_top.png"
+          src="/assets/pretzel_top.png"
           alt="Pretzel"
           className="position-absolute"
           style={{ top: "10px", left: "50%", transform: "translateX(-50%)" }}
         />
         <img
-          src="/src/assets/croissant_right.png"
+          src="/assets/croissant_right.png"
           alt="Croissant"
           className="position-absolute"
           style={{ right: "30px", top: "60px" }}
         />
         <img
-          src="/src/assets/macaron_bottom.png"
+          src="/assets/macaron_bottom.png"
           alt="Macaron"
           className="position-absolute"
           style={{ right: "100px", bottom: "20px" }}
         />
         <img
-          src="/src/assets/donut_left_2.png"
+          src="/assets/donut_left_2.png"
           alt="Donut"
           className="donut-left"
           style={{ left: "30px", bottom: "20px" }}
@@ -175,7 +175,7 @@ export default function HomeBanner() {
                 <div className="col-md-4 mb-4" key={cake.id}>
                   <ProductCard
                     id={cake.id}
-                    image={cake.image.replace("../","/")}
+                    image={cake.image.replace("../", "/")}
                     name={cake.name}
                     short_description={cake.short_description}
                     category={cake.category.join(", ")}
@@ -205,26 +205,50 @@ export default function HomeBanner() {
 
           <div className="row">
             {blogData.slice(0, 3).map((blog) => (
-              <div key={blog.id} className="col-md-4 mb-4">
-                <div className="card h-100 shadow-sm border-0">
-                  <img
-                    src={blog.thumbnail}
-                    className="card-img-top"
-                    alt={blog.title}
-                    style={{ height: "220px", objectFit: "cover" }}
-                  />
-                  <div className="card-body text-start d-flex flex-column">
-                    <p className="text-muted small mb-1">{blog.date}</p>
-                    <h5 className="card-title fw-bold mb-2">{blog.title}</h5>
-                    <p className="card-text mb-3" style={{ flexGrow: 1 }}>
-                      {blog.excerpt}
-                    </p>
-                    <Link
-                      to={`/blog/${blog.id}`}
-                      className="btn btn-sm btn-primary mt-auto"
-                    >
-                      Read More
-                    </Link>
+              <div key={blog.id} className="col-md-4 mb-4 d-flex">
+                <div
+                  className="card shadow-sm border-0 w-100 d-flex flex-column"
+                  style={{ height: "100%" }}
+                >
+                  {/* Image */}
+                  <div
+                    style={{
+                      height: "220px",
+                      overflow: "hidden",
+                      borderTopLeftRadius: "0.25rem",
+                      borderTopRightRadius: "0.25rem",
+                    }}
+                  >
+                    <img
+                      src={blog.thumbnail}
+                      className="w-100 h-100"
+                      alt={blog.title}
+                      style={{ objectFit: "cover" }}
+                    />
+                  </div>
+
+                  {/* Body */}
+                  <div className="card-body d-flex flex-column text-start">
+                    <div>
+                      <p className="text-muted small mb-1">{blog.date}</p>
+                      <h5
+                        className="card-title fw-bold mb-2"
+                        style={{ minHeight: "48px" }}
+                      >
+                        {blog.title}
+                      </h5>
+                    </div>
+
+                    <p className="card-text flex-grow-1">{blog.excerpt}</p>
+
+                    <div className="mt-3">
+                      <Link
+                        to={`/blog/${blog.id}`}
+                        className="btn btn-sm btn-primary"
+                      >
+                        Read More
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -284,7 +308,7 @@ export default function HomeBanner() {
             style={{ flex: "1 1 45%", minWidth: "280px" }}
           >
             <img
-              src="/src/assets/ourstory.png"
+              src="/assets/ourstory.png"
               alt="Our Story"
               style={{
                 maxWidth: "100%",
@@ -307,19 +331,19 @@ export default function HomeBanner() {
             {[
               {
                 name: "Trump",
-                avatar: "/src/assets/customer1.png",
+                avatar: "/assets/customer1.png",
                 comment:
                   "Delicious and fresh products. Highly recommend this bakery!",
               },
               {
                 name: "Taylor",
-                avatar: "/src/assets/customer2.png",
+                avatar: "/assets/customer2.png",
                 comment:
                   "Great taste and quality. I order weekly for my family. Luv thes kind of cake",
               },
               {
                 name: "Putin",
-                avatar: "/src/assets/customer3.png",
+                avatar: "/assets/customer3.png",
                 comment:
                   "Fast delivery and lovely packaging. 10/10 experience!",
               },

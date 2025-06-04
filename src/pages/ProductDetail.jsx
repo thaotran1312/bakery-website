@@ -74,7 +74,7 @@ export default function ProductDetail() {
         style={{
           backgroundColor: "#fdf6e9",
           padding: "60px 0",
-          backgroundImage: "url('/src/assets/breadcrumbs-bg.png')",
+          backgroundImage: "url('/assets/breadcrumbs-bg.png')",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "right center",
           height: "370px",
@@ -143,8 +143,8 @@ export default function ProductDetail() {
                   <img
                     src={
                       isWished
-                        ? "/src/assets/heart-filled.png"
-                        : "/src/assets/heart.png"
+                        ? "/assets/heart-filled.png"
+                        : "/assets/heart.png"
                     }
                     alt="wishlist"
                     style={{ width: "18px", height: "18px" }}
@@ -192,7 +192,7 @@ export default function ProductDetail() {
                 </button>
               </div>
               <img
-                src="/src/assets/payment_cards.png"
+                src="/assets/payment_cards.png"
                 alt="Payments"
                 style={{ 
                   width: "150px",
